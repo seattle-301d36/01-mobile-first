@@ -11,6 +11,6 @@
   nav > ul{
     display: none;
 }
-nav > ul:hover{
+.icon-menu:hover + ul{
   display: block;
 }}
