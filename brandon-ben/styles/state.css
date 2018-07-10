@@ -1,0 +1,26 @@
+/* Desktop View Styles */
+@media all and (min-width: 640px) {
+  header.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  div.icon-menu {
+    display: none;
+  }
+
+  nav ul li {
+    list-style-type: none;
+    display: inline-block;
+  }  
+
+  nav ul li a {
+    color: #777777;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    margin-right: 25px;
+    display:contents;
+  }
+}

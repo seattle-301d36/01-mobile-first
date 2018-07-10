@@ -1,0 +1,23 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header.clearfix {
+  margin-top:-25px;
+  padding: 25px;
+}
+
+section.heading-group-h1 {
+  float:left;
+}
+
+nav {
+  float: right;
+}
+
+footer {
+  height: 50px;
+  text-align: center;
+}
