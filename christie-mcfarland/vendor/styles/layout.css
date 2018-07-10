@@ -56,12 +56,8 @@ nav:hover ul > li {
   .icon-menu {
     display: none;
   }
-/* 
-  nav:not(.nohover):hover {
-    
-  } */
-
   nav ul {
     display: inline-block;
   }
 }
+
