@@ -3,14 +3,19 @@
   display: table; */
   clear: both;
 }
+.icon-menu {
+  /* position: relative; */
+}
+nav ul{
+  display: none;
+}
+nav:hover ul{
+    display: block;
+}
+
+
 @media (min-width: 700px){
   .icon-menu {
     display: none;
-}}
-@media (max-width: 700px){
-  nav > ul{
-    display: none;
-}
-nav > ul:hover{
-  display: block;
-}}
+  }
+  }
