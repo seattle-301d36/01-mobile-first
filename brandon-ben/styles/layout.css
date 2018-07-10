@@ -1,0 +1,24 @@
+header.clearfix {
+  /* border: 4px dashed green; */
+  margin-top:-25px;
+  padding: 25px;
+}
+section.heading-group-h1 {
+  border: 40x dashed green;
+}
+nav {
+  float: left;
+  border: 4px dashed purple;
+}
+
+article.clearfix {
+  border: 4px dashed blue;
+}
+section#about {
+  border: 4px dashed orange;
+}
+footer {
+  border: 4px dashed magenta;
+  height: 50px;
+  text-align: center;
+}
