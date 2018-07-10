@@ -3,3 +3,14 @@
   display: table; */
   clear: both;
 }
+@media (min-width: 700px){
+  .icon-menu {
+    display: none;
+}}
+@media (max-width: 700px){
+  nav > ul{
+    display: none;
+}
+nav > ul:hover{
+  display: block;
+}}
