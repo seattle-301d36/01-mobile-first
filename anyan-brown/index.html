@@ -27,20 +27,22 @@
   <link rel="icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/18607604?v=3&s=200">
 </head>
 <body>
-  <header class="clearfix">
+  <header class="clearfix header-container">
+    
     <!-- COMMENT: Read the CSS Tricks article on clearfix, and explain in your own words how they are used. -->
     <!-- https://css-tricks.com/snippets/css/clear-fix/ -->
     <!-- PUT YOUR RESPONSE HERE 
     Clearfix forces dummy content before and after the element it's applied to. This is important because when the element is a container for floated items, by default it runs the risk of subsequent elements overflowing on top of floated elements. Clearfix forces the container to clear floats and take up the full block, preventing the floated items from being interfered with.
     -->
 
-    <section class="heading-group-h1">
-      <h1>
+    <section>
+      <h1 class="padding-header margin-top-none">
         Kilovolt Blog!
       </h1>
-      <h2>The shocking power of static pages</h2>
+      <h2 class="margin-top-none padding-header">The shocking power of static pages</h2>
     </section>
     <nav>
+        <div class="icon-menu" ></div>
       <!-- TODO: Add a hamburger menu icon here, which will show/hide depending on screen width (desktop vs. mobile). -->
 
       <ul>
@@ -57,8 +59,8 @@
           <header>
             <h1>Bob Ross Ipsum</h1>
             <!-- REVIEW: Look closely at the HTML structure of this "byline" div, as it will affect how you choose to target these elements in CSS. -->
-            <div>
-              By <address><a href="https://en.wikipedia.org/wiki/Bob_Ross">Bob Ross</a></address>
+            <div class="by-line">
+              By <address><a href="https://en.wikipedia.org/wiki/Bob_Ross"><em>Bob Ross</em></a></address>
               published <time pubdate="" datetime="2015-11-05" title="2015-11-05">about 718 days ago</time>
             </div>
           </header>
@@ -68,7 +70,7 @@
       <article class="clearfix" data-category="baseball">
           <header>
             <h1>Baseball Ipsum</h1>
-            <div>
+            <div class= "by-line">
               By <address><a href="http://www.baseball-reference.com/players/h/hernafe02.shtml">Felix Hernandez</a></address>
               published <time pubdate="" datetime="2015-11-04" title="2015-11-04">about 719 days ago</time>
             </div>
@@ -78,7 +80,7 @@
       <article class="clearfix" data-category="cat">
           <header>
             <h1>Cat Ipsum</h1>
-            <div>
+            <div class= "by-line">
               By <address><a href="https://http.cat/">Meow Meow</a></address>
               published <time pubdate="" datetime="2015-11-03" title="2015-11-03">about 720 days ago</time>
             </div>
