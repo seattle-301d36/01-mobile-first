@@ -52,6 +52,9 @@ nav:hover ul > li {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+}
 @media (min-width: 700px){
   .icon-menu {
     display: none;
